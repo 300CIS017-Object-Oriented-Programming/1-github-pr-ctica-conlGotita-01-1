@@ -33,13 +33,21 @@
 - [x]  Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
 - [x]   Intente hacer push al repositorio remoto:  `git push origin main`. Debe aparecerle un error similar a este  `! [rejected] master -> master (fetch first)`. Esto significa que Git rechazó el push al repositorio remoto porque el mismo archivo fue modificado desde repositorios diferentes. La última versión del repositorio remoto no coincide con la versión del repositorio local que esta intentado hacer el push
 
-#### PARTE 4 : Actividad Modificaciones Git ( Resolver conflicto cuando un mismo archivo tiene diferente información) :
+#### PARTE 4 : Actividad Modificaciones Git (Resolver conflicto cuando un mismo archivo tiene diferente información) :
 
-- [ ] Hacer pull al repositorio
-- [ ] Abrir con el editor preferido los archivos que tienen conflicto y editarlos  \_manualmente\_. Las líneas de código que están después de la etiqueta HEAD corresponden a lo que está en el repositorio local y lo que está después de ===== corresponde a lo que está en el repositorio remoto. Quien corrije el error decide cuál de las dos versiones permanece en el archivo. En todo caso recuerde eliminar las etiquetas <<<<<<< HEAD, ======= y >>>>>>>.
-- [ ] Haga que en la primera línea quede el siguiente texto:  \_"Oh Gloria inmarcesible, oh júbilo inmortal. En surcos de dolores el bien germina ya. En un lugar de la mancha de cuyo nombre no quiero acordarme"\_
-- [ ]  Una vez terminado el ajuste:
-- [ ] Agregué el archivo al repositorio remoto  `git add ruta`
-- [ ] Haga commit del archivo  `git commit -m "su mensaje"`
-- [ ]  Haga push al repositorio remoto  `git push origin main`
-- [ ] Sus cambios debieron de subir correctamente al repositorio remoto. Verifique en la página de Github que el archivo subido tenga la versión ajustada.
+- [x] Hacer pull al repositorio
+- [x] Abrir con el editor preferido los archivos que tienen conflicto y editarlos  \_manualmente\_. Las líneas de código que están después de la etiqueta HEAD corresponden a lo que está en el repositorio local y lo que está después de ===== corresponde a lo que está en el repositorio remoto. Quien corrije el error decide cuál de las dos versiones permanece en el archivo. En todo caso recuerde eliminar las etiquetas <<<<<<< HEAD, ======= y >>>>>>>.
+- [x] Haga que en la primera línea quede el siguiente texto:  \_"Oh Gloria inmarcesible, oh júbilo inmortal. En surcos de dolores el bien germina ya. En un lugar de la mancha de cuyo nombre no quiero acordarme"\_
+- [x]  Una vez terminado el ajuste:
+- [x] Agregué el archivo al repositorio remoto  `git add ruta`
+- [x] Haga commit del archivo  `git commit -m "su mensaje"`
+- [x]  Haga push al repositorio remoto  `git push origin main`
+- [x] Sus cambios debieron de subir correctamente al repositorio remoto. Verifique en la página de Github que el archivo subido tenga la versión ajustada.
+
+#### PARTE 5 : Actividad Modificaciones Git (Conflictos en archivos diferentes) :
+
+- [] Vaya al repositorio 2
+- [] Cree un segundo archivo. Este archivo debe tener su nombre en formato apellido_nombre_2. Ejm PEREZ_PEDRO_2.md
+- [] Agregue el archivo al stagging área
+- [] Haga commit al archivo
+- [] Intente hacer push al repositorio remoto: git push origin main. Debe aparecer un error que indica que hay conflictos entre tu versión local y la versión remota del repositorio. Este conflicto se puede resolver automáticamente. Para hacerlo haga pull del repositorio para actualizar la última versión git pull origin. Agregué nuevamente el archivo al stagging area, haga nuevamente commit del archivo e intente hacer nuevamente push. Esta vez su push debe ser exitoso.
