@@ -1,9 +1,9 @@
-﻿\# Programación Orientada a Objetos
+﻿# Programación Orientada a Objetos
 
-\### Brenda Dayana Torres Murcia - 29|07|2024
+### Brenda Dayana Torres Murcia - 29|07|2024
 
 
-\####  PARTE 1 : Actividad Modificaciones Git :
+####  PARTE 1 : Actividad Modificaciones Git :
 
 - [x] Clone el repositorio. Llamaremos en adelante a este repositorio repositorio(1)
 - [x] Observe la carpeta oculta .git creada dentro del disco duro
@@ -14,7 +14,7 @@
 - [x] Haga commit al archivo. Recuerde poner un comentario en el archivo.  `git commit -m "su mensaje"`
 - [x]  Haga push al repositorio remoto para subir los cambios hechos al repositorio  `git push origin main`
 
-\#### PARTE 2 : Actividad Modificaciones Git (Conflictos) :
+#### PARTE 2 : Actividad Modificaciones Git (Conflictos) :
 
 - [ ]  Clone el repositorio remoto en un  \*\*directorio diferente\*\*  al que usó en la parte de familiarización (Repositorio 1)
 - [ ]  En el segundo repositorio modifique la primera línea del primer archivo.md que creo con el formato  \_nombre\_apellido.md\_. Quite lo que estaba y en su lugar escriba "En un lugar de la mancha de cuyo nombre no quiero acordarme"
@@ -23,7 +23,7 @@
 - [ ] Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
 - [ ] Haga push al repositorio remoto:  `git push origin main`
 
-\#### PARTE 3 : Actividad Modificaciones Git (Crear conflicto en el mismo archivo) :
+#### PARTE 3 : Actividad Modificaciones Git (Crear conflicto en el mismo archivo) :
 
 - [ ]  Vuelva a la carpeta del primer repositorio que clonó. (Repositorio 1)
 - [ ]   Abra el archivo que creó con el formato  \_nombre\_apellido.md\_.
@@ -33,7 +33,7 @@
 - [ ]  Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
 - [ ]   Intente hacer push al repositorio remoto:  `git push origin main`. Debe aparecerle un error similar a este  `! [rejected] master -> master (fetch first)`. Esto significa que Git rechazó el push al repositorio remoto porque el mismo archivo fue modificado desde repositorios diferentes. La última versión del repositorio remoto no coincide con la versión del repositorio local que esta intentado hacer el push
 
-\#### PARTE 4 : Actividad Modificaciones Git ( Resolver conflicto cuando un mismo archivo tiene diferente información) :
+#### PARTE 4 : Actividad Modificaciones Git ( Resolver conflicto cuando un mismo archivo tiene diferente información) :
 
 - [ ] Hacer pull al repositorio
 - [ ] Abrir con el editor preferido los archivos que tienen conflicto y editarlos  \_manualmente\_. Las líneas de código que están después de la etiqueta HEAD corresponden a lo que está en el repositorio local y lo que está después de ===== corresponde a lo que está en el repositorio remoto. Quien corrije el error decide cuál de las dos versiones permanece en el archivo. En todo caso recuerde eliminar las etiquetas <<<<<<< HEAD, ======= y >>>>>>>.
