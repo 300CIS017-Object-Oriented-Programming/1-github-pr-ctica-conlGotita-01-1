@@ -16,22 +16,22 @@
 
 #### PARTE 2 : Actividad Modificaciones Git (Conflictos) :
 
-- [ ]  Clone el repositorio remoto en un  \*\*directorio diferente\*\*  al que usó en la parte de familiarización (Repositorio 1)
-- [ ]  En el segundo repositorio modifique la primera línea del primer archivo.md que creo con el formato  \_nombre\_apellido.md\_. Quite lo que estaba y en su lugar escriba "En un lugar de la mancha de cuyo nombre no quiero acordarme"
-- [ ] Guarde el archivo
-- [ ] Agregue el archivo al stagging area:  `git add ruta del archivo`
-- [ ] Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
-- [ ] Haga push al repositorio remoto:  `git push origin main`
+- [x]  Clone el repositorio remoto en un  \*\*directorio diferente\*\*  al que usó en la parte de familiarización (Repositorio 1)
+- [x]  En el segundo repositorio modifique la primera línea del primer archivo.md que creo con el formato  \_nombre\_apellido.md\_. Quite lo que estaba y en su lugar escriba "En un lugar de la mancha de cuyo nombre no quiero acordarme"
+- [x] Guarde el archivo
+- [x] Agregue el archivo al stagging area:  `git add ruta del archivo`
+- [x] Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
+- [x] Haga push al repositorio remoto:  `git push origin main`
 
 #### PARTE 3 : Actividad Modificaciones Git (Crear conflicto en el mismo archivo) :
 
-- [ ]  Vuelva a la carpeta del primer repositorio que clonó. (Repositorio 1)
-- [ ]   Abra el archivo que creó con el formato  \_nombre\_apellido.md\_.
-- [ ]   Agregue al texto que ya tiene lo siguiente: "En surcos de dolores el bien germina ya".( Note que en esta copia del repositorio todavía no se ve reflejado los cambios que hizo en el repositorio(1) en el paso anterior, por lo que todavía tiene una parte del himno nacional)
-- [ ]   Guarde el archivo
-- [ ]   Agregue el archivo al stagging area:  `git add ruta del archivo`
-- [ ]  Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
-- [ ]   Intente hacer push al repositorio remoto:  `git push origin main`. Debe aparecerle un error similar a este  `! [rejected] master -> master (fetch first)`. Esto significa que Git rechazó el push al repositorio remoto porque el mismo archivo fue modificado desde repositorios diferentes. La última versión del repositorio remoto no coincide con la versión del repositorio local que esta intentado hacer el push
+- [x]  Vuelva a la carpeta del primer repositorio que clonó. (Repositorio 1)
+- [x]   Abra el archivo que creó con el formato  \_nombre\_apellido.md\_.
+- [x]   Agregue al texto que ya tiene lo siguiente: "En surcos de dolores el bien germina ya".( Note que en esta copia del repositorio todavía no se ve reflejado los cambios que hizo en el repositorio(1) en el paso anterior, por lo que todavía tiene una parte del himno nacional)
+- [x]   Guarde el archivo
+- [x]   Agregue el archivo al stagging area:  `git add ruta del archivo`
+- [x]  Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
+- [x]   Intente hacer push al repositorio remoto:  `git push origin main`. Debe aparecerle un error similar a este  `! [rejected] master -> master (fetch first)`. Esto significa que Git rechazó el push al repositorio remoto porque el mismo archivo fue modificado desde repositorios diferentes. La última versión del repositorio remoto no coincide con la versión del repositorio local que esta intentado hacer el push
 
 #### PARTE 4 : Actividad Modificaciones Git ( Resolver conflicto cuando un mismo archivo tiene diferente información) :
 
