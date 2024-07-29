@@ -16,12 +16,12 @@
 
 #### PARTE 2 : Actividad Modificaciones Git (Conflictos) :
 
-- [ ]  Clone el repositorio remoto en un  \*\*directorio diferente\*\*  al que usó en la parte de familiarización (Repositorio 1)
-- [ ]  En el segundo repositorio modifique la primera línea del primer archivo.md que creo con el formato  \_nombre\_apellido.md\_. Quite lo que estaba y en su lugar escriba "En un lugar de la mancha de cuyo nombre no quiero acordarme"
-- [ ] Guarde el archivo
-- [ ] Agregue el archivo al stagging area:  `git add ruta del archivo`
-- [ ] Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
-- [ ] Haga push al repositorio remoto:  `git push origin main`
+- [x]  Clone el repositorio remoto en un  \*\*directorio diferente\*\*  al que usó en la parte de familiarización (Repositorio 1)
+- [x]  En el segundo repositorio modifique la primera línea del primer archivo.md que creo con el formato  \_nombre\_apellido.md\_. Quite lo que estaba y en su lugar escriba "En un lugar de la mancha de cuyo nombre no quiero acordarme"
+- [x] Guarde el archivo
+- [x] Agregue el archivo al stagging area:  `git add ruta del archivo`
+- [x] Haga commit del archivo en el repositorio local:  `git commit -m "su mensaje"`
+- [x] Haga push al repositorio remoto:  `git push origin main`
 
 #### PARTE 3 : Actividad Modificaciones Git (Crear conflicto en el mismo archivo) :
 
