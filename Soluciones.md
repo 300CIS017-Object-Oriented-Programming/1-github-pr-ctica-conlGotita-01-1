@@ -46,8 +46,8 @@
 
 #### PARTE 5 : Actividad Modificaciones Git (Conflictos en archivos diferentes) :
 
-- [] Vaya al repositorio 2
-- [] Cree un segundo archivo. Este archivo debe tener su nombre en formato apellido_nombre_2. Ejm PEREZ_PEDRO_2.md
-- [] Agregue el archivo al stagging área
-- [] Haga commit al archivo
-- [] Intente hacer push al repositorio remoto: git push origin main. Debe aparecer un error que indica que hay conflictos entre tu versión local y la versión remota del repositorio. Este conflicto se puede resolver automáticamente. Para hacerlo haga pull del repositorio para actualizar la última versión git pull origin. Agregué nuevamente el archivo al stagging area, haga nuevamente commit del archivo e intente hacer nuevamente push. Esta vez su push debe ser exitoso.
+- [ ] Vaya al repositorio 2
+- [ ] Cree un segundo archivo. Este archivo debe tener su nombre en formato apellido_nombre_2. Ejm PEREZ_PEDRO_2.md
+- [ ] Agregue el archivo al stagging área
+- [ ] Haga commit al archivo
+- [ ] Intente hacer push al repositorio remoto: git push origin main. Debe aparecer un error que indica que hay conflictos entre tu versión local y la versión remota del repositorio. Este conflicto se puede resolver automáticamente. Para hacerlo haga pull del repositorio para actualizar la última versión git pull origin. Agregué nuevamente el archivo al stagging area, haga nuevamente commit del archivo e intente hacer nuevamente push. Esta vez su push debe ser exitoso.
